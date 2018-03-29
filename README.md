@@ -16,3 +16,8 @@ There are several ways to make conky use your config file. The easiest way is to
 `$ conky -c ~/.conky/conky.conf`
 
 Personally, I'd put the config file, or a symlink, in the `~/.config/conky/` directory. Then, whenever you run the `conky` command, your conky config file will be used by default.
+
+## Planned future changes
+ * Dynamic OS-info
+ * Dynamic battery-section (check how many batteries the computer has, if any)
+ * Dynamic CPU-section
